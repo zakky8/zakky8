@@ -96,20 +96,22 @@ External contributions: [`tldr-pages/tldr`](https://github.com/tldr-pages/tldr) 
 <table>
 <tr>
 <td align="center" width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=zakky8&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&text_color=ede8e3&title_color=f97316&icon_color=f97316&include_all_commits=true&count_private=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=zakky8&show_icons=true&hide_border=true&bg_color=0d0c0b&text_color=ede8e3&title_color=f97316&icon_color=f97316&include_all_commits=true&count_private=true&card_width=440" alt="GitHub stats" />
 </td>
 <td align="center" width="50%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakky8&layout=compact&theme=transparent&hide_border=true&bg_color=00000000&text_color=ede8e3&title_color=f97316&langs_count=10&include_all_commits=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakky8&layout=compact&hide_border=true&bg_color=0d0c0b&text_color=ede8e3&title_color=f97316&langs_count=8&include_all_commits=true&card_width=440" alt="Top languages" />
 </td>
 </tr>
 </table>
 
 <div align="center">
-<img src="https://streak-stats.demolab.com?user=zakky8&theme=transparent&hide_border=true&background=00000000&stroke=242220&ring=f97316&fire=f97316&currStreakLabel=f97316&sideLabels=ede8e3&dates=7a7570&currStreakNum=ede8e3&sideNums=ede8e3" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=zakky8&hide_border=true&background=0d0c0b&stroke=0d0c0b&ring=f97316&fire=f97316&currStreakLabel=f97316&sideLabels=ede8e3&dates=7a7570&currStreakNum=ede8e3&sideNums=ede8e3" alt="Streak" />
 </div>
 
+<br>
+
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=zakky8&theme=react-dark&bg_color=00000000&hide_border=true&color=ede8e3&line=f97316&point=ede8e3&area=true&area_color=f97316" />
+<img src="https://github-profile-trophy.vercel.app/?username=zakky8&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=7&title=Stars,Followers,Commits,Repositories,PullRequest,Issues,Reviews" alt="Trophies" />
 </div>
 
 ---
