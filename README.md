@@ -1,12 +1,13 @@
 <div align="center">
 
 <a href="https://github.com/zakky8">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=720&lines=AI+safety+%2B+agent+engineering;Mechanism-grounded+jailbreak+taxonomy;3D+web+performance+reference;Self-correction+as+research+discipline" alt="header" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=820&lines=Verification-first+TypeScript+agent+framework;Mechanism-grounded+jailbreak+taxonomy;Three.js+%2B+WebGPU+performance+reference;Adversarial+review+as+engineering+discipline;Self-correction+documented%2C+not+silently+rewritten" alt="header" />
 </a>
 
 <br>
 
 <p>
+<a href="https://github.com/zakky8/TENET"><img src="https://img.shields.io/badge/Agent%20Framework-TENET-f97316?style=flat-square&labelColor=0d0c0b" /></a>
 <a href="https://github.com/zakky8/llm-jailbreak-taxonomy"><img src="https://img.shields.io/badge/AI%20Safety-Research-f97316?style=flat-square&labelColor=0d0c0b" /></a>
 <a href="https://github.com/zakky8/web-optimization"><img src="https://img.shields.io/badge/3D%20Web-Performance-f97316?style=flat-square&labelColor=0d0c0b" /></a>
 <a href="https://github.com/tldr-pages/tldr/pulls?q=author%3Azakky8"><img src="https://img.shields.io/badge/OSS-tldr--pages%20(62.7k%20★)-f97316?style=flat-square&labelColor=0d0c0b" /></a>
@@ -19,6 +20,12 @@
 
 ## › Now Shipping
 
+> **2026-06-04** · [`TENET`](https://github.com/zakky8/TENET) — Phase 14 vuln-test triage landed.
+> A 3-agent adversarial security review (security · correctness · supply-chain) over the post-P9 packages surfaced 23 real issues; HIGH + MEDIUM patched in [`a2ca9a8`](https://github.com/zakky8/TENET/commit/a2ca9a8). Bug count caught by the framework's own discipline across three review passes: **44.** Latest CI: all green (build · BENCHMARKS gate · Trivy SARIF · pnpm audit).
+
+> **2026-06-04** · `TENET` ships [`@tenet/acp`](https://github.com/zakky8/TENET/tree/main/packages/acp) — Agent Client Protocol v1 adapter.
+> JSON-RPC 2.0 over stdio, NDJSON framed, crypto-random session IDs, fresh AbortController per prompt. Lets a TENET agent talk to Zed / Cursor / Helix-class clients without bespoke glue.
+
 > **2026-06-02** · [`llm-jailbreak-taxonomy v4.2.1`](https://github.com/zakky8/llm-jailbreak-taxonomy/releases/tag/v4.2.1) — *"Honest Reframing: Simulation is Prior, Not Result"*
 > Adversarial peer review caught four overclaim issues in v4.2.0. v4.2.1 publicly retracts each one with a side-by-side "claim → why wrong" table in the changelog. **Self-correction documented, not silently rewritten** — full audit trail in `git log`.
 
@@ -30,6 +37,21 @@
 ---
 
 ## › Active Research
+
+### 🧭 [TENET](https://github.com/zakky8/TENET) — Verification-First Agent Framework
+
+OSS TypeScript framework where hallucination defense, source-grounding, pre-tool-call governance, capability-token sandboxing, and platform rate-limit scheduling are first-class layers — not bolt-ons. One config powers Telegram, Discord, Slack, MS Teams, embedded web widget, REST + gRPC, ticketing webhooks (Zendesk · Intercom · Freshdesk · ServiceNow), Matrix, and a voice surface (OpenAI Realtime + Twilio Media Streams).
+
+| | |
+|---|---|
+| Workspaces | **28 packages · 10 surfaces** under pnpm + TS strict |
+| Tests | **916 passing** · hermetic Jest · BENCHMARKS gate runs every PR |
+| Verifier | Atomic-claim multi-judge + Vectara HHEM-2.1 hallucination adapter |
+| Governance | `@tenet/governance` — per-tool deny / allow / require-approval policy + structured AuditSink (the OSS gap LangChain · LlamaIndex · Semantic Kernel all leave open) |
+| Adapters | Anthropic-direct · Bedrock · OpenAI · Gemini · Mistral · Ollama (3 streaming) · Qdrant · pgvector · Redis state |
+| Interop | MCP client + OAuth gateway · WASM-sandboxed tools (wasmtime) · Agent Client Protocol v1 (Zed / Cursor / Helix) |
+| Honesty | This is a *framework*, not a model — it calls frontier LLMs and makes them grounded, cheaper per resolution, and harder to jailbreak. **Systems claim, measurable.** |
+| Security | 44 bugs caught by in-house adversarial review across three passes · 0 known CVEs · Trivy SARIF + pnpm audit gated in CI |
 
 ### 🛡 [llm-jailbreak-taxonomy](https://github.com/zakky8/llm-jailbreak-taxonomy)
 
@@ -84,11 +106,12 @@ External-PR throughput this year: **12 PRs · ~850 commits**.
 <td valign="top" width="33%">
 
 **Agents**
-- TypeScript · Rust
-- Discord · Telegram
-- RAG · vector DBs
-- Tool-use orchestration
-- LLM-as-judge rubrics
+- TypeScript strict · Node 22 · ES2024
+- pnpm workspaces · Jest hermetic
+- MCP · ACP · OAuth gateway
+- WASM-sandboxed tools (wasmtime)
+- LLM-as-judge · multi-judge verifier
+- pre-tool-call governance + audit
 
 </td>
 <td valign="top" width="33%">
@@ -186,6 +209,8 @@ review:
 
 <div align="center">
 <sub>
+  <a href="https://github.com/zakky8/TENET">TENET</a>
+  <code>·</code>
   <a href="https://github.com/zakky8/llm-jailbreak-taxonomy">llm-jailbreak-taxonomy</a>
   <code>·</code>
   <a href="https://github.com/zakky8/web-optimization">web-optimization</a>
