@@ -133,26 +133,28 @@ External-PR throughput this year: **12 PRs · ~850 commits**.
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=zakky8&theme=react-dark&bg_color=0d0c0b&hide_border=true&color=ede8e3&line=f97316&point=ede8e3&area=true&area_color=f97316" alt="Contribution activity graph" />
-</div>
-
-<table>
-<tr>
-<td align="center" width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=zakky8&show_icons=true&hide_border=true&bg_color=0d0c0b&text_color=ede8e3&title_color=f97316&icon_color=f97316&include_all_commits=true&count_private=true&card_width=440" alt="GitHub stats" />
-</td>
-<td align="center" width="50%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakky8&layout=compact&hide_border=true&bg_color=0d0c0b&text_color=ede8e3&title_color=f97316&langs_count=8&include_all_commits=true&card_width=440" alt="Top languages" />
-</td>
-</tr>
-</table>
-
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=zakky8&hide_border=true&background=0d0c0b&stroke=0d0c0b&ring=f97316&fire=f97316&currStreakLabel=f97316&sideLabels=ede8e3&dates=7a7570&currStreakNum=ede8e3&sideNums=ede8e3" alt="Streak" />
 
 <br><br>
 
-<img src="https://github-profile-trophy.vercel.app/?username=zakky8&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=7&title=Stars,Followers,Commits,Repositories,PullRequest,Issues,Reviews" alt="Trophies" />
+<img src="https://streak-stats.demolab.com?user=zakky8&hide_border=true&background=0d0c0b&stroke=0d0c0b&ring=f97316&fire=f97316&currStreakLabel=f97316&sideLabels=ede8e3&dates=7a7570&currStreakNum=ede8e3&sideNums=ede8e3" alt="Streak" />
 </div>
+
+<br>
+
+<div align="center">
+
+<sub>**Flagship repos — live state**</sub>
+
+<a href="https://github.com/zakky8/TENET"><img src="https://img.shields.io/github/last-commit/zakky8/TENET?style=flat-square&labelColor=0d0c0b&color=f97316&label=TENET" /></a>
+<a href="https://github.com/zakky8/TENET/actions"><img src="https://img.shields.io/github/actions/workflow/status/zakky8/TENET/ci.yml?branch=main&style=flat-square&labelColor=0d0c0b&label=TENET%20CI" /></a>
+<a href="https://github.com/zakky8/llm-jailbreak-taxonomy"><img src="https://img.shields.io/github/last-commit/zakky8/llm-jailbreak-taxonomy?style=flat-square&labelColor=0d0c0b&color=f97316&label=jailbreak-taxonomy" /></a>
+<a href="https://github.com/zakky8/llm-jailbreak-taxonomy/stargazers"><img src="https://img.shields.io/github/stars/zakky8/llm-jailbreak-taxonomy?style=flat-square&labelColor=0d0c0b&color=f97316" /></a>
+<a href="https://github.com/zakky8/web-optimization"><img src="https://img.shields.io/github/last-commit/zakky8/web-optimization?style=flat-square&labelColor=0d0c0b&color=f97316&label=web-optimization" /></a>
+<a href="https://github.com/zakky8?tab=followers"><img src="https://img.shields.io/github/followers/zakky8?style=flat-square&labelColor=0d0c0b&color=f97316&label=followers" /></a>
+
+</div>
+
+> <sub>The previous version of this section embedded `github-readme-stats.vercel.app`, `github-profile-trophy.vercel.app`, and `github-readme-streak-stats.herokuapp.com`. All three hit their hosting providers' rate / payment limits in 2026 (`DEPLOYMENT_PAUSED` / `402 Payment Required` / dead Heroku free dyno) and stopped rendering. Replaced with a) the maintained `streak-stats.demolab.com` fork and b) Shields.io badges — every one of which is sourced directly from the GitHub API, so they degrade gracefully if anything else breaks.</sub>
 
 ---
 
