@@ -1,6 +1,6 @@
 <div align="center">
 
-# Zakky
+# ZAKKY
 
 **AI safety research · agent engineering · 3D web performance**
 
