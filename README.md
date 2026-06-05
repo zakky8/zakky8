@@ -32,7 +32,7 @@ Pre-tool-call governance + structured audit for OSS agent frameworks. Adversaria
 
 ### 📬 Available for
 
-AI safety / red-team consulting · independent security review for TypeScript + Node 22 · Three.js + WebGPU performance audits · technical writing with sourced citations.
+Custom bot builds (Discord / Telegram / Slack — AI-powered or classic) · web builds (Next.js, Astro, Three.js / R3F) · community moderator + support-agent roles · AI-safety consulting · independent security review for TypeScript + Node 22 · Three.js + WebGPU performance audits · technical writing with sourced citations.
 
 </td>
 </tr>
