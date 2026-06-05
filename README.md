@@ -1,8 +1,14 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0c0b,100:F97316&height=200&section=header&text=Zakky&fontColor=ede8e3&fontSize=64&fontAlignY=38&desc=AI%20safety%20%C2%B7%20agent%20engineering%20%C2%B7%203D%20web%20performance&descAlignY=60&descSize=16&descAlign=50" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0c0b,100:F97316&height=140&section=header" width="100%" alt="header" />
 
 <div align="center">
 
 # ZAKKY
+
+**AI safety · agent engineering · 3D web performance**
+
+</div>
+
+<div align="center">
 
 <a href="https://github.com/zakky8/TENET"><img src="https://img.shields.io/badge/-TENET-0d0c0b?style=for-the-badge" /></a>
 <a href="https://github.com/zakky8/llm-jailbreak-taxonomy"><img src="https://img.shields.io/badge/-AI_Safety-0d0c0b?style=for-the-badge" /></a>
