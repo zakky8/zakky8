@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# ZAKKY.
+# ZAKKY
 
 **AI safety · agent engineering · 3D web performance**
 
