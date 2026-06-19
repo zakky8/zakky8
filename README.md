@@ -1,38 +1,103 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0c0b,100:F97316&height=140&section=header" width="100%" alt="header" />
-
 <div align="center">
 
-# ZAKKY
-
-**AI safety · agent engineering · 3D web performance**
-
-</div>
-
-<div align="center">
-
-<a href="https://github.com/zakky8/TENET"><img src="https://img.shields.io/badge/-TENET-0d0c0b?style=for-the-badge" /></a>
-<a href="https://github.com/zakky8/llm-jailbreak-taxonomy"><img src="https://img.shields.io/badge/-AI_Safety-0d0c0b?style=for-the-badge" /></a>
-<a href="https://github.com/zakky8/web-optimization"><img src="https://img.shields.io/badge/-3D_Web-0d0c0b?style=for-the-badge" /></a>
-<a href="https://github.com/tldr-pages/tldr/pulls?q=author%3Azakky8"><img src="https://img.shields.io/badge/-tldr--pages-0d0c0b?style=for-the-badge" /></a>
-
-</div>
+<a href="https://github.com/zakky8">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=720&lines=AI+safety+%2B+agent+engineering;Mechanism-grounded+jailbreak+taxonomy;3D+web+performance+reference;Self-correction+as+research+discipline" alt="header" />
+</a>
 
 <br>
 
+<p>
+<a href="https://github.com/zakky8/llm-jailbreak-taxonomy"><img src="https://img.shields.io/badge/AI%20Safety-Research-f97316?style=flat-square&labelColor=0d0c0b" /></a>
+<a href="https://github.com/zakky8/web-optimization"><img src="https://img.shields.io/badge/3D%20Web-Performance-f97316?style=flat-square&labelColor=0d0c0b" /></a>
+<a href="https://github.com/tldr-pages/tldr/pulls?q=author%3Azakky8"><img src="https://img.shields.io/badge/OSS-tldr--pages%20(5%20merged)-f97316?style=flat-square&labelColor=0d0c0b" /></a>
+<img src="https://komarev.com/ghpvc/?username=zakky8&style=flat-square&color=f97316&label=PROFILE+VIEWS" />
+</p>
+
+</div>
+
+---
+
+## › Now Shipping
+
+> **2026-06-19** · `tldr-pages/tldr` PR [`#22489 syft`](https://github.com/tldr-pages/tldr/pull/22489) — review suggestion applied, CI green, re-review requested.
+
+> **2026-06** · Five pages merged to `tldr-pages/tldr` upstream this month: [`kioclient`](https://github.com/tldr-pages/tldr/pull/22491), [`helmfile`](https://github.com/tldr-pages/tldr/pull/22490), [`dagger`](https://github.com/tldr-pages/tldr/issues?q=is%3Apr+author%3Azakky8+dagger), [`fc-scan`](https://github.com/tldr-pages/tldr/pull/22461), [`pyinstaller`](https://github.com/tldr-pages/tldr/pull/22460).
+
+> **2026-06-02** · [`llm-jailbreak-taxonomy v4.2.1`](https://github.com/zakky8/llm-jailbreak-taxonomy/releases/tag/v4.2.1) — *"Honest Reframing: Simulation is Prior, Not Result"*
+> Adversarial peer review caught four overclaim issues in v4.2.0. v4.2.1 publicly retracts each one with a side-by-side "claim → why wrong" table in the changelog. **Self-correction documented, not silently rewritten** — full audit trail in `git log`.
+
+---
+
+## › Active Research
+
+### 🛡 [llm-jailbreak-taxonomy](https://github.com/zakky8/llm-jailbreak-taxonomy)
+
+Mechanism-grounded taxonomy of **40 jailbreak patterns** across **10 categories**, mapped to the safety-alignment assumptions they subvert. Ships a complete evaluation harness, citation-audit methodology (every claim verified via direct WebFetch), and explicit retraction discipline when an adversarial reviewer catches an overclaim.
+
+| | |
+|---|---|
+| Latest release | [v4.2.1](https://github.com/zakky8/llm-jailbreak-taxonomy/releases/tag/v4.2.1) (2026-06-02) |
+| Live site | [zakky8.github.io/llm-jailbreak-taxonomy](https://zakky8.github.io/llm-jailbreak-taxonomy/) |
+| Test suite | pytest 10/10 passing · GitHub Actions CI on Python 3.10/3.11/3.12 |
+| Patterns | 40 · across 10 mechanism-grounded categories |
+| Citations | 17, every claim direct-WebFetch verified · 1 publicly refuted (PoisonedRAG 90% not 97–99%) · 1 mis-classified category renamed (GCG vs token-smuggling) |
+| Reproducibility | seed-42 bit-identical across runs · verified in CI |
+
+### ⚡ [web-optimization](https://github.com/zakky8/web-optimization)
+
+The definitive Three.js + WebGL performance reference. **48 validated topic folders.** Every claim sourced against live repos and browser specs. Covers WebGPU, GLSL, R3F, GSAP, mobile, GPGPU particles, and validated corrections to claims most tutorials get wrong.
+
+| | |
+|---|---|
+| Live site | [zakky8.github.io/web-optimization](https://zakky8.github.io/web-optimization/) — ⌘K search, filter, particle background |
+| Three.js version | r184 |
+| Folders | 48 covering full 3D web stack |
+| Approach | Sourced corrections to widely-repeated wrong claims (GSAP plugins free, SMIL not deprecated, PCFSoftShadowMap deprecated, Safari WebXR support) |
+
+---
+
+## › Open Source Contributions
+
+| Project | Stars | Contributions |
+|---|---:|---|
+| [`tldr-pages/tldr`](https://github.com/tldr-pages/tldr) — collaborative cheatsheets for console commands | **62.7k** | **5 merged:** [`kioclient`](https://github.com/tldr-pages/tldr/pull/22491), [`helmfile`](https://github.com/tldr-pages/tldr/pull/22490), [`dagger`](https://github.com/tldr-pages/tldr/issues?q=is%3Apr+author%3Azakky8+dagger), [`fc-scan`](https://github.com/tldr-pages/tldr/pull/22461), [`pyinstaller`](https://github.com/tldr-pages/tldr/pull/22460) · **1 in review:** [`syft`](https://github.com/tldr-pages/tldr/pull/22489) |
+
+External-PR throughput this year: **12 PRs · ~850 commits**.
+
+---
+
+## › Stack
+
 <table>
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
-### 🛠 Currently building
-
-Pre-tool-call governance + structured audit for OSS agent frameworks. Adversarial security review of every TypeScript package I ship. A mechanism-grounded jailbreak taxonomy that publicly retracts overclaims instead of silently rewriting them.
+**AI / Safety**
+- Python · Jupyter
+- Anthropic SDK · OpenAI SDK
+- Red teaming · RLHF
+- Constitutional AI
+- Statistical eval (Wilson CI, McNemar, Cochran Q)
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
-### 📬 Available for
+**Agents**
+- TypeScript · Rust
+- Discord · Telegram
+- RAG · vector DBs
+- Tool-use orchestration
+- LLM-as-judge rubrics
 
-Custom bot builds (Discord / Telegram / Slack — AI-powered or classic) · web builds (Next.js, Astro, Three.js / R3F) · community moderator + support-agent roles · AI-safety consulting · independent security review for TypeScript + Node 22 · Three.js + WebGPU performance audits · technical writing with sourced citations.
+</td>
+<td valign="top" width="33%">
+
+**3D / Web**
+- Three.js · R3F · drei
+- WebGPU · GLSL · WGSL
+- Vite · Astro · Next.js 15
+- GSAP · Lenis
+- Performance budgets
 
 </td>
 </tr>
@@ -40,162 +105,92 @@ Custom bot builds (Discord / Telegram / Slack — AI-powered or classic) · web 
 
 ---
 
-## Featured projects
+## › Activity
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=zakky8&theme=react-dark&bg_color=0d0c0b&hide_border=true&color=ede8e3&line=f97316&point=ede8e3&area=true&area_color=f97316" alt="Contribution activity graph" />
+</div>
 
 <table>
 <tr>
-<td width="33%" valign="top">
-
-<div align="center">
-<a href="https://github.com/zakky8/TENET">
-<img src="https://img.shields.io/badge/TENET-Agent_Framework-f97316?style=for-the-badge&labelColor=0d0c0b" />
-</a>
-</div>
-
-Verification-first TypeScript agent framework. Hallucination defense, source grounding, pre-tool-call governance, capability-token sandboxing, and platform rate-limit scheduling as first-class layers — not bolt-ons.
-
-- **28 packages · 10 surfaces** (Discord, Slack, Telegram, Teams, web, REST, gRPC, ticketing, Matrix, voice)
-- **916 tests passing** · BENCHMARKS dimensions gated in CI on every PR
-- Verifier: atomic-claim multi-judge with Vectara HHEM-2.1 adapter
-- Interop: MCP + OAuth gateway · WASM sandbox (wasmtime) · Agent Client Protocol v1 (Zed / Cursor / Helix)
-- **44 bugs caught** across three internal adversarial review passes · 0 known CVEs
-- Apache-2.0
-
-<sub><a href="https://github.com/zakky8/TENET"><b>→ zakky8/TENET</b></a></sub>
-
+<td align="center" width="50%">
+<img src="https://github-readme-stats.vercel.app/api?username=zakky8&show_icons=true&hide_border=true&bg_color=0d0c0b&text_color=ede8e3&title_color=f97316&icon_color=f97316&include_all_commits=true&count_private=true&card_width=440" alt="GitHub stats" />
 </td>
-<td width="33%" valign="top">
-
-<div align="center">
-<a href="https://github.com/zakky8/llm-jailbreak-taxonomy">
-<img src="https://img.shields.io/badge/Taxonomy-AI_Safety-f97316?style=for-the-badge&labelColor=0d0c0b" />
-</a>
-</div>
-
-Mechanism-grounded taxonomy of 40 LLM jailbreak patterns across 10 categories, mapped to the safety-alignment assumptions they subvert.
-
-- Latest: [**v4.2.1**](https://github.com/zakky8/llm-jailbreak-taxonomy/releases/tag/v4.2.1) — *"Honest Reframing: Simulation is Prior"*
-- Live site: [zakky8.github.io/llm-jailbreak-taxonomy](https://zakky8.github.io/llm-jailbreak-taxonomy/)
-- pytest **10/10** · Python 3.10 / 3.11 / 3.12 on GitHub Actions
-- 17 citations, every one direct-WebFetch verified · 1 publicly refuted (PoisonedRAG 90%, not 97–99%)
-- Seed-42 bit-identical across runs · verified in CI
-- Adversarial peer review caught four overclaims in v4.2.0 — all retracted in v4.2.1 with side-by-side "claim → why wrong"
-
-<sub><a href="https://github.com/zakky8/llm-jailbreak-taxonomy"><b>→ zakky8/llm-jailbreak-taxonomy</b></a></sub>
-
-</td>
-<td width="33%" valign="top">
-
-<div align="center">
-<a href="https://github.com/zakky8/web-optimization">
-<img src="https://img.shields.io/badge/Three.js-Performance-f97316?style=for-the-badge&labelColor=0d0c0b" />
-</a>
-</div>
-
-The Three.js + WebGL performance reference I wish I'd had: 48 validated topic folders, every claim sourced against live repos and browser specs.
-
-- Live site: [zakky8.github.io/web-optimization](https://zakky8.github.io/web-optimization/) — ⌘K search, filter, particle background
-- Three.js **r184**
-- Covers WebGPU, GLSL, R3F, GSAP, mobile, GPGPU particles, Core Web Vitals for 3D
-- Sourced corrections to widely-repeated wrong claims: GSAP plugins free, SMIL not deprecated, PCFSoftShadowMap deprecated, Safari WebXR support
-
-<sub><a href="https://github.com/zakky8/web-optimization"><b>→ zakky8/web-optimization</b></a></sub>
-
+<td align="center" width="50%">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakky8&layout=compact&hide_border=true&bg_color=0d0c0b&text_color=ede8e3&title_color=f97316&langs_count=8&include_all_commits=true&card_width=440" alt="Top languages" />
 </td>
 </tr>
 </table>
 
----
-
-## Stack
-
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,py,nodejs,rust,react,nextjs,threejs,docker,kubernetes,aws,gcp,linux,bash,git,github,vscode&perline=8" alt="Stack" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=zakky8&hide_border=true&background=0d0c0b&stroke=0d0c0b&ring=f97316&fire=f97316&currStreakLabel=f97316&sideLabels=ede8e3&dates=7a7570&currStreakNum=ede8e3&sideNums=ede8e3" alt="Streak" />
 
 <br><br>
 
-<sub>**AI / Safety** · Anthropic SDK · OpenAI SDK · Constitutional AI · RLHF · red-teaming · Wilson CI · McNemar · Cochran Q</sub>
-<br>
-<sub>**Agents** · TypeScript strict · ES2024 · pnpm workspaces · MCP · ACP · OAuth gateway · wasmtime sandbox · multi-judge verifier · pre-tool-call governance + audit</sub>
-<br>
-<sub>**3D / Web** · Three.js · React Three Fiber · drei · WebGPU · WGSL · GLSL · GSAP · Lenis · Vite · Astro · Next.js 15 · Core Web Vitals</sub>
-
+<img src="https://github-profile-trophy.vercel.app/?username=zakky8&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=7&title=Stars,Followers,Commits,Repositories,PullRequest,Issues,Reviews" alt="Trophies" />
 </div>
 
 ---
 
-## Recent shipments
+## › Citing the Research
 
-| Date | Project | Summary |
-|---|---|---|
-| 2026-06-04 | `TENET` | Phase 14 vulnerability-test triage — three-agent adversarial review surfaced 23 real issues; HIGH + MEDIUM patched ([`a2ca9a8`](https://github.com/zakky8/TENET/commit/a2ca9a8)) |
-| 2026-06-04 | `@tenet/acp` | Agent Client Protocol v1 adapter — JSON-RPC 2.0 over stdio, NDJSON framed, for Zed / Cursor / Helix interop |
-| 2026-06-02 | `llm-jailbreak-taxonomy` | [v4.2.1](https://github.com/zakky8/llm-jailbreak-taxonomy/releases/tag/v4.2.1) released with public retractions of four overclaims |
-| 2026-06-02 | `tldr-pages/tldr` | [`pyinstaller`](https://github.com/tldr-pages/tldr/pull/22460) merged upstream · `fc-scan` / `syft` / `helmfile` PRs approved |
+If you use the LLM Jailbreak Taxonomy in your work:
 
-<sub>External-PR throughput this year: **12 PRs · ~850 commits**</sub>
+```bibtex
+@misc{zakky2026llmjailbreak,
+  title  = {A Systematic Taxonomy of Jailbreak Techniques in Large Language Models:
+            Toward Robust Safety Alignment},
+  author = {Zakky},
+  year   = {2026},
+  month  = {June},
+  note   = {Version 4.2.1 --- honest reframing release},
+  url    = {https://github.com/zakky8/llm-jailbreak-taxonomy}
+}
+```
 
----
-
-## Activity
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zakky8&theme=github_dark" alt="Profile summary" />
-
-<br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zakky8&theme=github_dark&exclude=html,css" alt="Repos per language" width="48%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zakky8&theme=github_dark&exclude=html,css" alt="Most-commit language" width="48%" />
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=zakky8&theme=react-dark&bg_color=0d0c0b&hide_border=true&color=ede8e3&line=f97316&point=ede8e3&area=true&area_color=f97316" alt="Contribution activity" />
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=zakky8&hide_border=true&background=0d0c0b&stroke=0d0c0b&ring=f97316&fire=f97316&currStreakLabel=f97316&sideLabels=ede8e3&dates=7a7570&currStreakNum=ede8e3&sideNums=ede8e3" alt="Streak" />
-
-</div>
+Full `CITATION.cff` and BibTeX bibliography in [`paper/references.bib`](https://github.com/zakky8/llm-jailbreak-taxonomy/blob/main/paper/references.bib) (every entry direct-WebFetch verified against arxiv).
 
 ---
 
-## Working principles
+## › Method
 
-> Sources: primary documents first (official docs, browser specs, live repos); peer-reviewed papers second. Affiliate review sites, paraphrased rules, and training-data memory are rejected outright.
->
-> Claims: hypothesis until corroborated by ≥2 independent sources. A single source is marked `UNVERIFIED`. Retractions are documented publicly in the CHANGELOG — never silently rewritten.
->
-> Simulation vs measurement: hand-tuned parameters that reproduce literature distributions are a *prior*, never presented as *measurement*. Live API calls against real models are the only valid measurement.
->
-> Review: adversarial review is welcome. The assumption is the reviewer is right until proven otherwise. Response order: fix → defend → silently ignore (last is never acceptable).
+Working principles that show up in every repo:
+
+```yaml
+sourcing:
+  primary:   "Official docs, changelogs, browser specs, live repos"
+  secondary: "Peer-reviewed papers (NeurIPS, USENIX, ICML, ACM CCS)"
+  rejected:  "Affiliate review sites, paraphrased rules, training memory"
+
+claims:
+  default:     "Hypothesis until corroborated by ≥2 independent sources"
+  single:      "Marked UNVERIFIED"
+  retractions: "Documented publicly in CHANGELOG, not silently rewritten"
+
+simulation_vs_measurement:
+  prior:       "Hand-tuned parameters reproduce literature distributions"
+  measurement: "Live API calls against real models"
+  rule:        "Never present the first as the second"
+
+disclosure:
+  vulnerabilities: "Disclosed to affected vendors before public release"
+  payloads:        "Mechanisms published; specific exploits redacted"
+
+review:
+  adversarial: "Welcome — assumption is reviewer is right until proven otherwise"
+  response:    "Fix > defend > silently ignore"
+```
 
 ---
 
 <div align="center">
-
-<a href="https://github.com/zakky8"><img src="https://img.shields.io/github/followers/zakky8?style=for-the-badge&labelColor=0d0c0b&color=f97316&label=Followers" /></a>
-<a href="https://github.com/zakky8?tab=repositories"><img src="https://img.shields.io/badge/-All_repositories-0d0c0b?style=for-the-badge" /></a>
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:0d0c0b&height=120&section=footer" width="100%" alt="footer" />
-
+<sub>
+  <a href="https://github.com/zakky8/llm-jailbreak-taxonomy">llm-jailbreak-taxonomy</a>
+  <code>·</code>
+  <a href="https://github.com/zakky8/web-optimization">web-optimization</a>
+  <code>·</code>
+  <a href="https://github.com/tldr-pages/tldr/pulls?q=author%3Azakky8">tldr-pages PRs</a>
+  <code>·</code>
+  <a href="https://github.com/zakky8?tab=repositories">all repos</a>
+</sub>
 </div>
-
-<!--
-Widget choice rationale — do not restore the following dead URLs:
-  github-readme-stats.vercel.app           → DEPLOYMENT_PAUSED (free-tier exhausted)
-  github-profile-trophy.vercel.app         → 402 Payment Required
-  github-readme-streak-stats.herokuapp.com → backend dead ("Failed to retrieve contributions")
-  github-contributor-stats.vercel.app      → 402 Payment Required
-
-Currently live alternatives in use:
-  capsule-render.vercel.app                — gradient banner header / footer
-  skillicons.dev                           — tech-stack icon row
-  github-profile-summary-cards.vercel.app  — repo language cards (replacement for readme-stats)
-  streak-stats.demolab.com                 — maintained streak-stats fork
-  github-readme-activity-graph.vercel.app  — contribution graph
-  shields.io                               — followers + all-repos badge
--->
