@@ -1,15 +1,17 @@
 <div align="center">
 
 <a href="https://github.com/zakky8">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=720&lines=AI+safety+%2B+agent+engineering;Mechanism-grounded+jailbreak+taxonomy;3D+web+performance+reference;Self-correction+as+research+discipline" alt="header" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=720&lines=AI+safety+%2B+agent+engineering;Mechanism-grounded+jailbreak+taxonomy;Open-source+agent+framework+(TENET)%2C+1036+tests;3D+web+performance+reference;Self-correction+as+research+discipline" alt="header" />
 </a>
 
 <br>
 
 <p>
 <a href="https://github.com/zakky8/llm-jailbreak-taxonomy"><img src="https://img.shields.io/badge/AI%20Safety-Research-f97316?style=flat-square&labelColor=0d0c0b" /></a>
+<a href="https://github.com/zakky8/TENET"><img src="https://img.shields.io/badge/Agent%20Framework-TENET%20(1036%20tests)-f97316?style=flat-square&labelColor=0d0c0b" /></a>
 <a href="https://github.com/zakky8/web-optimization"><img src="https://img.shields.io/badge/3D%20Web-Performance-f97316?style=flat-square&labelColor=0d0c0b" /></a>
-<a href="https://github.com/tldr-pages/tldr/pulls?q=author%3Azakky8"><img src="https://img.shields.io/badge/OSS-tldr--pages%20(5%20merged)-f97316?style=flat-square&labelColor=0d0c0b" /></a>
+<a href="https://github.com/tldr-pages/tldr/pulls?q=author%3Azakky8"><img src="https://img.shields.io/badge/OSS-tldr--pages%20(6%20merged)-f97316?style=flat-square&labelColor=0d0c0b" /></a>
+<a href="https://github.com/openclaw/openclaw/pulls?q=author%3Azakky8"><img src="https://img.shields.io/badge/OSS-openclaw%20(3%20PRs)-f97316?style=flat-square&labelColor=0d0c0b" /></a>
 <img src="https://komarev.com/ghpvc/?username=zakky8&style=flat-square&color=f97316&label=PROFILE+VIEWS" />
 </p>
 
@@ -19,9 +21,7 @@
 
 ## › Now Shipping
 
-> **2026-06-19** · `tldr-pages/tldr` PR [`#22489 syft`](https://github.com/tldr-pages/tldr/pull/22489) — review suggestion applied, CI green, re-review requested.
-
-> **2026-06** · Five pages merged to `tldr-pages/tldr` upstream this month: [`kioclient`](https://github.com/tldr-pages/tldr/pull/22491), [`helmfile`](https://github.com/tldr-pages/tldr/pull/22490), [`dagger`](https://github.com/tldr-pages/tldr/issues?q=is%3Apr+author%3Azakky8+dagger), [`fc-scan`](https://github.com/tldr-pages/tldr/pull/22461), [`pyinstaller`](https://github.com/tldr-pages/tldr/pull/22460).
+> **2026-06-19** · [`#22489 syft`](https://github.com/tldr-pages/tldr/pull/22489) merged — the 6th `tldr-pages/tldr` page shipped upstream this cycle: [`kioclient`](https://github.com/tldr-pages/tldr/pull/22491), [`helmfile`](https://github.com/tldr-pages/tldr/pull/22490), [`dagger`](https://github.com/tldr-pages/tldr/pull/22462), [`fc-scan`](https://github.com/tldr-pages/tldr/pull/22461), [`pyinstaller`](https://github.com/tldr-pages/tldr/pull/22460).
 
 > **2026-06-02** · [`llm-jailbreak-taxonomy v4.2.1`](https://github.com/zakky8/llm-jailbreak-taxonomy/releases/tag/v4.2.1) — *"Honest Reframing: Simulation is Prior, Not Result"*
 > Adversarial peer review caught four overclaim issues in v4.2.0. v4.2.1 publicly retracts each one with a side-by-side "claim → why wrong" table in the changelog. **Self-correction documented, not silently rewritten** — full audit trail in `git log`.
@@ -43,6 +43,19 @@ Mechanism-grounded taxonomy of **40 jailbreak patterns** across **10 categories*
 | Citations | 17, every claim direct-WebFetch verified · 1 publicly refuted (PoisonedRAG 90% not 97–99%) · 1 mis-classified category renamed (GCG vs token-smuggling) |
 | Reproducibility | seed-42 bit-identical across runs · verified in CI |
 
+### 🤖 [TENET](https://github.com/zakky8/TENET)
+
+Open-source TypeScript agent framework where hallucination defense, source-grounding, tool-call governance, and platform rate-limit scheduling are first-class layers, not bolt-ons. One config deploys the same agent to Discord, Slack, Telegram, MS Teams, a web widget, REST/gRPC, and ticketing webhooks.
+
+| | |
+|---|---|
+| License | Apache-2.0 |
+| Tests | **1,036 passing** across 83 suites, gated in CI |
+| Surfaces | 9 (Discord · Slack · Telegram · Teams · web widget · REST · gRPC · Matrix · voice) + 4 ticketing connectors |
+| Model adapters | 6 — Anthropic, OpenAI, Gemini, Mistral, Ollama, Bedrock (all streaming) |
+| Differentiator | Pre-tool-call policy + approval gates + structured audit trail — an OSS gap LangChain/CrewAI/AutoGen don't fill |
+| Benchmarks | Measured in hermetic CI on every PR, not marketed — see [`BENCHMARKS.md`](https://github.com/zakky8/TENET/blob/main/docs/BENCHMARKS.md) |
+
 ### ⚡ [web-optimization](https://github.com/zakky8/web-optimization)
 
 The definitive Three.js + WebGL performance reference. **48 validated topic folders.** Every claim sourced against live repos and browser specs. Covers WebGPU, GLSL, R3F, GSAP, mobile, GPGPU particles, and validated corrections to claims most tutorials get wrong.
@@ -60,7 +73,8 @@ The definitive Three.js + WebGL performance reference. **48 validated topic fold
 
 | Project | Stars | Contributions |
 |---|---:|---|
-| [`tldr-pages/tldr`](https://github.com/tldr-pages/tldr) — collaborative cheatsheets for console commands | **62.7k** | **5 merged:** [`kioclient`](https://github.com/tldr-pages/tldr/pull/22491), [`helmfile`](https://github.com/tldr-pages/tldr/pull/22490), [`dagger`](https://github.com/tldr-pages/tldr/issues?q=is%3Apr+author%3Azakky8+dagger), [`fc-scan`](https://github.com/tldr-pages/tldr/pull/22461), [`pyinstaller`](https://github.com/tldr-pages/tldr/pull/22460) · **1 in review:** [`syft`](https://github.com/tldr-pages/tldr/pull/22489) |
+| [`tldr-pages/tldr`](https://github.com/tldr-pages/tldr) — collaborative cheatsheets for console commands | **63.1k** | **6 merged:** [`kioclient`](https://github.com/tldr-pages/tldr/pull/22491), [`helmfile`](https://github.com/tldr-pages/tldr/pull/22490), [`syft`](https://github.com/tldr-pages/tldr/pull/22489), [`dagger`](https://github.com/tldr-pages/tldr/pull/22462), [`fc-scan`](https://github.com/tldr-pages/tldr/pull/22461), [`pyinstaller`](https://github.com/tldr-pages/tldr/pull/22460) |
+| [`openclaw/openclaw`](https://github.com/openclaw/openclaw) — personal AI assistant, any OS/platform | **383k** | **3 PRs submitted:** [`#30063`](https://github.com/openclaw/openclaw/pull/30063) TS-strictness fix in the cron gateway, [`#30031`](https://github.com/openclaw/openclaw/pull/30031) YAML frontmatter edge-case fix, [`#30029`](https://github.com/openclaw/openclaw/pull/30029) plugin duplicate-detection fix — each passed automated review at 5/5 confidence; auto-closed for inactivity ahead of maintainer merge |
 
 External-PR throughput this year: **12 PRs · ~850 commits**.
 
@@ -84,10 +98,10 @@ External-PR throughput this year: **12 PRs · ~850 commits**.
 
 **Agents**
 - TypeScript · Rust
-- Discord · Telegram
-- RAG · vector DBs
-- Tool-use orchestration
-- LLM-as-judge rubrics
+- Multi-surface bot frameworks (TENET)
+- Tool-call governance · WASM sandboxing
+- RAG · vector DBs · LLM-as-judge rubrics
+- MCP · A2A protocol interop
 
 </td>
 <td valign="top" width="33%">
@@ -187,9 +201,13 @@ review:
 <sub>
   <a href="https://github.com/zakky8/llm-jailbreak-taxonomy">llm-jailbreak-taxonomy</a>
   <code>·</code>
+  <a href="https://github.com/zakky8/TENET">TENET</a>
+  <code>·</code>
   <a href="https://github.com/zakky8/web-optimization">web-optimization</a>
   <code>·</code>
   <a href="https://github.com/tldr-pages/tldr/pulls?q=author%3Azakky8">tldr-pages PRs</a>
+  <code>·</code>
+  <a href="https://github.com/openclaw/openclaw/pulls?q=author%3Azakky8">openclaw PRs</a>
   <code>·</code>
   <a href="https://github.com/zakky8?tab=repositories">all repos</a>
 </sub>
